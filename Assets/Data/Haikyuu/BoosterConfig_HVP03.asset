@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_HVP03
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 6
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: ba1e08af6f5797bdbcbd7bd2b677d1cf, type: 2}
+  commonSlotCount: 3
+  uncommonSlotRarity: {fileID: 11400000, guid: 0f62da024ef211c83afda91906711274, type: 2}
+  uncommonSlotCount: 1
+  rareSlotGroup:
+    label: Carte brillante (slot 6)
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: e92e86b6c0b6dec2bf816c2ccd687238, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 407201bc2b5cee901bf569632beadf19, type: 2}
+      atLeastChancePercent: 0.02
+    - rarity: {fileID: 11400000, guid: c4a1c0dd4da60241af47eaef5f83cde5, type: 2}
+      atLeastChancePercent: 0.05
+    - rarity: {fileID: 11400000, guid: 39e77123b6882eaffd6a9faecd602f9d, type: 2}
+      atLeastChancePercent: 0.65
+    - rarity: {fileID: 11400000, guid: a177e893f3e97e999666c7519a74959e, type: 2}
+      atLeastChancePercent: 0.4
+    - rarity: {fileID: 11400000, guid: 7c956b318b0d8bc396285f55a1b04068, type: 2}
+      atLeastChancePercent: 1.11
+    - rarity: {fileID: 11400000, guid: 929ab45ef631a6d12c5368d78ca6f9f3, type: 2}
+      atLeastChancePercent: 1.85
+    - rarity: {fileID: 11400000, guid: fb24ba8b51b83959ca2340abb2e9a7f0, type: 2}
+      atLeastChancePercent: 2
+    - rarity: {fileID: 11400000, guid: 922a8b2f7ecbb1d0fb529617291b723c, type: 2}
+      atLeastChancePercent: 2.5
+    - rarity: {fileID: 11400000, guid: 198bab5fdd7a2cb9ff8b5d9522f9cb8d, type: 2}
+      atLeastChancePercent: 17
+    - rarity: {fileID: 11400000, guid: 4d23979814d7474d0fcd81545d789c45, type: 2}
+      atLeastChancePercent: 20
+    - rarity: {fileID: 11400000, guid: ecacab23d0650eb79f37be93ee1598f2, type: 2}
+      atLeastChancePercent: 25
+  secondSlotGroup:
+    label: Normal slot 4 (chance Art)
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: ba1e08af6f5797bdbcbd7bd2b677d1cf, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: eddcd04b0d887bb3feafb3bfc43894b1, type: 2}
+      atLeastChancePercent: 5
+  includeBonusSlot: 0
+  bonusSlotRestrictToRarities: []
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 18
+  displayDiscount: 0.15

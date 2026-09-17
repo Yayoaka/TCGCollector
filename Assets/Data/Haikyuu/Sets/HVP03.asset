@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f9ddcc1bdb264986b9892bef28e06, type: 3}
+  m_Name: HVP03
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Data.CardSet
+  setId: haikyuu_hvp03
+  displayName: 'Vobaca Break : Youth & Select Team Training Camp'
+  description: Troisieme set de cartes a collectionner Haikyuu!! Vobaca Break (HV-P03), "Youth & Select Team Training Camp". 99 cartes numerotees (147 en comptant les variantes paralleles/artwork/speciales), avec un nouveau palier Art en plus des paliers Parallele et Ultime deja presents dans HV-P02.
+  coverArt: {fileID: -169552014429432009, guid: 0e79a91d1a0d555408fbe2a646cbd9d6, type: 3}
+  sortOrder: 3
+  license: {fileID: 11400000, guid: 51ca71c645bf4945bbe919112346d2df, type: 2}
+  boosterConfig: {fileID: 11400000, guid: 104813d8b41c7341ba29d1d7132051de, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_Haikyuu
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 5
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: 280f029a568f4a958307928c82c3541f, type: 2}
+  commonSlotCount: 3
+  uncommonSlotRarity: {fileID: 11400000, guid: 734d8c6a824e47649eb41acf6b0f89ea, type: 2}
+  uncommonSlotCount: 1
+  rareSlotGroup:
+    label: Speciale ou mieux
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: d5ea4a94319e40faa75a3772df520fb7, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: e66a451aaafc457cb74dee59ae17ef28, type: 2}
+      atLeastChancePercent: 4
+    - rarity: {fileID: 11400000, guid: fa30e09b33994e83bc890a363bc5df3a, type: 2}
+      atLeastChancePercent: 15
+  secondSlotGroup:
+    label: 
+    count: 0
+    baseRarities: []
+    upgradeTiers: []
+  includeBonusSlot: 0
+  bonusSlotRestrictToRarities: []
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 20
+  displayDiscount: 0.15

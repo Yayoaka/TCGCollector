@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_HVP02
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 5
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: a3f6df7a1b584d6aaa47062ca73da594, type: 2}
+  commonSlotCount: 3
+  uncommonSlotRarity: {fileID: 11400000, guid: d37c0dc14032437bbdbf18a3f8c394d8, type: 2}
+  uncommonSlotCount: 1
+  rareSlotGroup:
+    label: Speciale ou mieux
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: bcaf081bb4ab4da1aeb088954e8f40b0, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 9de309295d88436b8aac9dba266916f3, type: 2}
+      atLeastChancePercent: 8
+    - rarity: {fileID: 11400000, guid: 62e69f1561954730baa4701cfbe53eae, type: 2}
+      atLeastChancePercent: 4
+    - rarity: {fileID: 11400000, guid: 6c970ed6c5dc4ca6bff8141d6daee995, type: 2}
+      atLeastChancePercent: 2
+    - rarity: {fileID: 11400000, guid: 9e3384450e0d44e5bc66bd314df3ba1d, type: 2}
+      atLeastChancePercent: 1
+    - rarity: {fileID: 11400000, guid: d7e3055c5fa94cb2b6a2ef10ca71c1bc, type: 2}
+      atLeastChancePercent: 0.2
+    - rarity: {fileID: 11400000, guid: dcc52a37a4354ce6981cf8d78e28fba1, type: 2}
+      atLeastChancePercent: 0.1
+  secondSlotGroup:
+    label: Bonus Parallele
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: a3f6df7a1b584d6aaa47062ca73da594, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 3fea63abad50405f84730769a36d8d98, type: 2}
+      atLeastChancePercent: 10
+    - rarity: {fileID: 11400000, guid: 7eb1f15ecf4442719c6de7fd5e6e323b, type: 2}
+      atLeastChancePercent: 3
+  includeBonusSlot: 0
+  bonusSlotRestrictToRarities: []
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 20
+  displayDiscount: 0.15

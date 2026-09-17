@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f9ddcc1bdb264986b9892bef28e06, type: 3}
+  m_Name: RiftboundOrigins
+  m_EditorClassIdentifier: 
+  setId: riftbound_origins
+  displayName: 'Riftbound : Origins'
+  description: Premier set du jeu de cartes Riftbound (League of Legends), sorti
+    en 2025 chez Riot Games. Echantillon de cartes reelles utilise comme set de test.
+  coverArt: {fileID: 6886210049523826722, guid: 24ca583d8c1b8f248ae42389d89d826d, type: 3}
+  sortOrder: 1
+  license: {fileID: 11400000, guid: e9b695e70648b394f802aba283cb4414, type: 2}
+  boosterConfig: {fileID: 11400000, guid: 60561016a5641b0428d8cdf90b0184de, type: 2}

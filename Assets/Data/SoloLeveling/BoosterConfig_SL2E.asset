@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_SL2E
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 7
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: 04b292fdee3a4f85b244aa7f42c7627c, type: 2}
+  commonSlotCount: 4
+  uncommonSlotRarity: {fileID: 0}
+  uncommonSlotCount: 0
+  rareSlotGroup:
+    label: Rare ou mieux
+    count: 2
+    baseRarities:
+    - {fileID: 11400000, guid: 78f0ae9d94b94c76911a70abcd51325f, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 3f279601262a4523806eae8765c11cb6, type: 2}
+      atLeastChancePercent: 0.3
+    - rarity: {fileID: 11400000, guid: ccd6a07c55ff4048ad153b760372384e, type: 2}
+      atLeastChancePercent: 3
+    - rarity: {fileID: 11400000, guid: 52fcab3b7005420d83217d769683e3e2, type: 2}
+      atLeastChancePercent: 12
+  secondSlotGroup:
+    label:
+    count: 0
+    baseRarities: []
+    upgradeTiers: []
+  includeBonusSlot: 1
+  bonusSlotRestrictToRarities:
+  - {fileID: 11400000, guid: 70ffaadafd7649918ad10ff9e4ae0369, type: 2}
+  - {fileID: 11400000, guid: a23e0ce120f74d7ca9e2efb4630bb87e, type: 2}
+  - {fileID: 11400000, guid: 00c8152ca0764a3d8a33e23aca7275af, type: 2}
+  - {fileID: 11400000, guid: 6f82babe2cfe444bb1a7446f7675de9a, type: 2}
+  - {fileID: 11400000, guid: f21b478ffab640928a9ea016408d8698, type: 2}
+  - {fileID: 11400000, guid: 14e170e382ae4c4f8d4d92804b3afb9b, type: 2}
+  - {fileID: 11400000, guid: d8d877bb96624930bb9797a88b84843d, type: 2}
+  - {fileID: 11400000, guid: 05893a9e5aa14c33b8c10da15d6ff25f, type: 2}
+  - {fileID: 11400000, guid: 8c7118cf23cc4b618444ce5934e32e08, type: 2}
+  - {fileID: 11400000, guid: 3151153c92624062b1eed581f4eb71a1, type: 2}
+  - {fileID: 11400000, guid: 47235c41885f4694b6b70999afc25a55, type: 2}
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 10
+  displayDiscount: 0.15

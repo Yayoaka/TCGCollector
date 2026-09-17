@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515aa2a855e2dd5418268d1c8d02828c, type: 3}
+  m_Name: ME03006_Majaspic
+  m_EditorClassIdentifier: 
+  cardId: me03_006
+  displayName: Majaspic
+  set: {fileID: 11400000, guid: c68779ab171046047b47e8b6ec951ba2, type: 2}
+  rarity: {fileID: 11400000, guid: 1ce4e2c9430540b3b5355077adc560d4, type: 2}
+  cardNumber: 6
+  artwork: {fileID: 0}
+  flavorText: 
+  isVariant: 0

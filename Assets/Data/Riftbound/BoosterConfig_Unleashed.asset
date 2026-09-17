@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_Unleashed
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 10
+  allowDuplicatesInSamePack: 1
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: cad4ca375c5142b8a6382b16464f02f9, type: 2}
+  commonSlotCount: 7
+  uncommonSlotRarity: {fileID: 11400000, guid: e37fa249f93b451abdde732dd67f45c7, type: 2}
+  uncommonSlotCount: 3
+  rareSlotGroup:
+    label: Rare ou mieux
+    count: 2
+    baseRarities:
+    - {fileID: 11400000, guid: 9bebab77bb334fe089f2413b56dbd851, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 9315d1ccf81080382cfb767ed0679e54, type: 2}
+      atLeastChancePercent: 0.02
+    - rarity: {fileID: 11400000, guid: 083a8fcbcb71440bb7eedf127850b6ab, type: 2}
+      atLeastChancePercent: 0.139
+    - rarity: {fileID: 11400000, guid: 7f2b56e91f5144e18586a0b90c32ab7d, type: 2}
+      atLeastChancePercent: 1.389
+    - rarity: {fileID: 11400000, guid: 6cd03bf3414f4cf6a8f2b73a599a54b8, type: 2}
+      atLeastChancePercent: 8.333
+    - rarity: {fileID: 11400000, guid: 3cf5428179784d2f87eb890cf244f5da, type: 2}
+      atLeastChancePercent: 25
+  secondSlotGroup:
+    label:
+    count: 0
+    baseRarities: []
+    upgradeTiers: []
+  includeBonusSlot: 1
+  bonusSlotRestrictToRarities:
+  - {fileID: 11400000, guid: 3ae990085e61465b863dd375c9dc62a7, type: 2}
+  - {fileID: 11400000, guid: 9c5dda9787cc4e3b9798cf4471405801, type: 2}
+  - {fileID: 11400000, guid: d229bf8ea5b1404dae9d7a3f83272ff7, type: 2}
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 24
+  displayDiscount: 0.15

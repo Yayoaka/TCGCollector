@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f9ddcc1bdb264986b9892bef28e06, type: 3}
+  m_Name: RiftboundSpiritforged
+  m_EditorClassIdentifier: 
+  setId: riftbound_spiritforged
+  displayName: Riftbound : Armes spirituelles
+  description: Deuxieme set du jeu de cartes Riftbound (League of Legends), sorti chez Riot Games. Importe depuis les donnees officielles (JSON), sans illustrations pour le moment.
+  coverArt: {fileID: 1299245705997227859, guid: e60c137137a1a714c9ad25482a5dd61d, type: 3}
+  sortOrder: 2
+  license: {fileID: 11400000, guid: e9b695e70648b394f802aba283cb4414, type: 2}
+  boosterConfig: {fileID: 11400000, guid: c14ce0d4f608ac5c1195bab4e2029e9b, type: 2}

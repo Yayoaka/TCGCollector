@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f9ddcc1bdb264986b9892bef28e06, type: 3}
+  m_Name: SoloLevelingMU1
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Data.CardSet
+  setId: solo_leveling_mu1
+  displayName: 'Solo Leveling : Mapniverse Vol. 1'
+  description: Premier set collector Solo Leveling (SL1E), sorti en Coree en 2025.
+    Set non competitif axe sur la collection des personnages de la serie.
+  coverArt: {fileID: -4173654744496455544, guid: 04a72ba290d5c76c2f8a12d9ad60d720, type: 3}
+  sortOrder: 1
+  license: {fileID: 11400000, guid: 4709da6f730ed134aac33a9ac4744b98, type: 2}
+  boosterConfig: {fileID: 11400000, guid: 5c4eceba7be7ad54fa4afffe52b2d537, type: 2}

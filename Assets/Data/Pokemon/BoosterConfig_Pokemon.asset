@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_Pokemon
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 10
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 11400000, guid: 1ce4e2c9430540b3b5355077adc560d4, type: 2}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: 5a59269849d14d9492c2505b43e00a19, type: 2}
+  commonSlotCount: 4
+  uncommonSlotRarity: {fileID: 11400000, guid: 70e0fccdd7754bb6bec73fe12e968ca0, type: 2}
+  uncommonSlotCount: 3
+  rareSlotGroup:
+    label: Rare ou mieux
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: 1ce4e2c9430540b3b5355077adc560d4, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 77878e00d7984df381dc03ee13079245, type: 2}
+      atLeastChancePercent: 8.5
+    - rarity: {fileID: 11400000, guid: dd09748327fe4927ad0865ec88e5b1ca, type: 2}
+      atLeastChancePercent: 21
+  secondSlotGroup:
+    label: Reverse ou mieux
+    count: 1
+    baseRarities:
+    - {fileID: 11400000, guid: 766d9ba8ee4649c28a04240d5ecc8c43, type: 2}
+    - {fileID: 11400000, guid: 91abf5a47bd8432188e233aaa8993e66, type: 2}
+    - {fileID: 11400000, guid: 00fbe5e2127b4fc8a202394d38003da0, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 5bda82114da64051a24134ca6a1a91b6, type: 2}
+      atLeastChancePercent: 0.06
+    - rarity: {fileID: 11400000, guid: 12c8243e6421408db3919576ec2f381f, type: 2}
+      atLeastChancePercent: 1.25
+    - rarity: {fileID: 11400000, guid: c52b7748ab8941b2ba6c73cf787cfe11, type: 2}
+      atLeastChancePercent: 11.2
+  includeBonusSlot: 0
+  bonusSlotRestrictToRarities: []
+  purchasePrice: 100
+  bundleSize: 6
+  bundleDiscount: 0.08
+  displaySize: 36
+  displayDiscount: 0.15

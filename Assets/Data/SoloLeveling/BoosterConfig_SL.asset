@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8452ef9ceb764449a9f1f771f6a8ed, type: 3}
+  m_Name: BoosterConfig_SL
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Systems.BoosterConfig
+  packSize: 7
+  allowDuplicatesInSamePack: 0
+  hasGuaranteedSlot: 1
+  guaranteedMinimumRarity: {fileID: 0}
+  useSlotStructure: 1
+  commonSlotRarity: {fileID: 11400000, guid: f34f62c9e1fa4500a37d3b422d252310, type: 2}
+  commonSlotCount: 4
+  uncommonSlotRarity: {fileID: 0}
+  uncommonSlotCount: 0
+  rareSlotGroup:
+    label: Rare ou mieux
+    count: 2
+    baseRarities:
+    - {fileID: 11400000, guid: d9f16e074bff47c7b5801450d0efd7d8, type: 2}
+    upgradeTiers:
+    - rarity: {fileID: 11400000, guid: 2420080a025346a896b62a46ac606c49, type: 2}
+      atLeastChancePercent: 0.3
+    - rarity: {fileID: 11400000, guid: 726643cc161044a1ba374e17d0c3473b, type: 2}
+      atLeastChancePercent: 3
+    - rarity: {fileID: 11400000, guid: 9cc76892c5f946c99d9e804b6352fc84, type: 2}
+      atLeastChancePercent: 12
+  secondSlotGroup:
+    label: 
+    count: 0
+    baseRarities: []
+    upgradeTiers: []
+  includeBonusSlot: 1
+  bonusSlotRestrictToRarities:
+  - {fileID: 11400000, guid: 94ea08ef99f844569860d2028912ad6b, type: 2}
+  purchasePrice: 100
+  bundleSize: 0
+  bundleDiscount: 0.05
+  displaySize: 10
+  displayDiscount: 0.15

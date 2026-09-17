@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f9ddcc1bdb264986b9892bef28e06, type: 3}
+  m_Name: HVP01
+  m_EditorClassIdentifier: Assembly-CSharp::TCGCollector.Data.CardSet
+  setId: haikyuu_hvp01
+  displayName: 'Vobaca Break : The Dumpster Battle'
+  description: Premier set de cartes a collectionner Haikyuu!! Vobaca Break (HV-P01), "The Dumpster Battle". 93 cartes de base representant les personnages et moments cles de la serie. Les versions paralleles/chase existantes pour certains numeros ne sont pas incluses dans cet import.
+  coverArt: {fileID: 4412064074948303672, guid: cbcda801661d4c38e60404e0644bb262, type: 3}
+  sortOrder: 1
+  license: {fileID: 11400000, guid: 51ca71c645bf4945bbe919112346d2df, type: 2}
+  boosterConfig: {fileID: 11400000, guid: 53ef7e1830724e58836d575e81dbc204, type: 2}
